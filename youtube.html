@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ 
+<script type="text/javascript" src="youtube.js"></script> 
+
+</head>
+<style type="text/css">
+             body{
+                background-image: url('hero-bg.jpg');
+
+                background-repeat: no-repeat;
+                background-size:cover;
+             }
+         </style>
+<body >
+
+        <!-- movies -->
+ <div class="">  
+  <button data-toggle="collapse" class=" btn btn-outline-light text-light" data-target="#movie">Movie</button>
+  <button data-toggle="collapse" class=" btn btn-outline-light text-light" data-target="#Vlog">Vlog</button>
+  <button data-toggle="collapse" class=" btn btn-outline-light text-light" data-target="#pVlog">Programming Languages</button>
+  <button data-toggle="collapse" class=" btn btn-outline-light text-light" data-target="#cooking">cooking</button>
+</div>
+<!-- movies -->
+<div id="movie" class="collapse">
+    <div class="container m-4 p-4 d-flex">
+<form id="form" class="col-md-12 jumbotron shadow-lg ">
+        <div class="form-group">
+            <label>Actor Name</label>
+            <select id="search1" class="form-control">
+                <option value="vijay movie">Joseph Vijay</option>
+                <option value="ajith movie">Ajith Kumar</option>
+                <option value="Rajini movie">Rajinikanth</option>
+                <option value="Dhanush movie">Dhanush</option>
+                <option value="Karthi movie">Karthi</option>
+                <option value="Lawrence Raghavendra movie">Lawrence Raghavendra</option>
+                <option value="Suriya movie">Suriya</option>
+                <option value="Sivakarthikeyan movie">Sivakarthikeyan</option>
+                <option value="Jayam Ravi movie">Jayam Ravi</option>
+                <option value="Kamal movie">Kamal Haasan</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label>Content Language</label>
+            <select id="search2" class="form-control">
+                <option value="tamil">Tamil</option>
+                <option value="english">English</option>
+                <option value="Malayalam">Malayalam</option>
+                <option value="Hindi">Hindi</option>
+            </select>
+        </div>    
+        
+        <div class="form-group">
+            <input type="submit" value="search" class="btn btn-success text-light">
+        </div>
+</form>                
+    </div>
+</div>    
+
+<!--end movies -->      
+
+
+<!-- Vlog -->
+<div id="Vlog" class="collapse">
+    <div class="container m-4 p-4 d-flex">
+<form id="Vlog" class="col-md-12 jumbotron shadow-lg">
+        <div class="form-group">
+            <label>countries</label>
+            <select id="vsearch1" class="form-control">
+                <option value="turkish vlog">turkish</option>
+                <option value="Italy vlog">Italy</option>
+                <option value="New Zealand vlog">New Zealand</option>
+                <option value="United Kingdom vlog">United Kingdom</option>
+                <option value="Greece vlog">Greece</option>
+                <option value="Canada vlog">Canada</option>
+                <option value="Norway vlog">Norway</option>                           
+            </select>
+        </div>
+        <div class="form-group">
+            <label>Content Language</label>
+            <select id="vsearch2" class="form-control">
+                <option value="tamil">Tamil</option>
+                <option value="english">English</option>
+                <option value="Malayalam">Malayalam</option>
+                <option value="Hindi">Hindi</option>
+            </select>
+        </div>    
+        
+        <div class="form-group">
+            <input type="submit" value="search" class="btn btn-success text-light">
+        </div>
+</form>                
+    </div>
+</div>    
+
+<!--end Vlog -->
+
+
+<!-- Promming Languages-->
+<div id="pVlog" class="collapse">
+    <div class="container m-4 p-4 d-flex">
+<form id="pVlog" class="col-md-12 jumbotron shadow-lg">
+        <div class="form-group">
+            <label>Programming Languages</label>
+            <select id="psearch1" class="form-control">
+                <option value="Codeigniter4">Codeigniter</option>
+                <option value="Python">Python</option>
+                <option value="Java">Java</option>
+                <option value="PHP">PHP</option>
+                <option value="C/C++Programming">C/C++Programming</option>
+                <option value="Google Go">Google Go</option>
+                <option value="Swift">Swift</option>                           
+            </select>
+        </div>
+        <div class="form-group">
+            <label>Content Language</label>
+            <select id="psearch2" class="form-control">
+                <option value="tamil">Tamil</option>
+                <option value="english">English</option>
+                <option value="Malayalam">Malayalam</option>
+                <option value="Hindi">Hindi</option>
+            </select>
+        </div>    
+        
+        <div class="form-group">
+            <input type="submit" value="search" class="btn btn-success text-light">
+        </div>
+</form>                
+    </div>
+</div>    
+
+<!--end programing -->
+
+<!-- Promming cooking-->
+<div id="cooking" class="collapse">
+    <div class="container m-4 p-4 d-flex">
+<form id="cooking" class="col-md-12 jumbotron shadow-lg">
+        <div class="form-group">
+            <label>recipes</label>
+            <select id="csearch1" class="form-control">
+                <option value="Massaman curry">Massaman curry</option>
+                <option value="Neapolitan pizza">Neapolitan pizza</option>
+                <option value="Chocolate">Chocolate</option>
+                <option value="Sushi">Sushi</option>
+                <option value="Hamburger">Hamburger</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label>Content Language</label>
+            <select id="csearch2" class="form-control">
+                <option value="tamil">Tamil</option>
+                <option value="english">English</option>
+                <option value="Malayalam">Malayalam</option>
+                <option value="Hindi">Hindi</option>
+            </select>
+        </div>    
+        
+        <div class="form-group">
+            <input type="submit" value="search" class="btn btn-success text-light">
+        </div>
+</form>                
+    </div>
+</div>    
+
+<!--end cooking -->
+    <div class="row d-flex justify-content-center">
+        <div class="col-md-8">
+            <div id="videos">                
+            </div>
+        </div>
+    </div>
+
+
+     
+    </body>
+</html>
+
+
